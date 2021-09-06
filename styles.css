@@ -1,0 +1,121 @@
+html {
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 40%;
+    background-color: hsl(225, 100%, 95%);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.hero {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+}
+
+.card-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font-family: RedHat;
+}
+
+.card {
+    box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.2);
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    max-width: 360px;
+    border-radius: 20px;
+    padding: 0 0;
+    background-color: #fff;
+}
+
+.container {
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 12px;
+    display: inline-flex;
+    width: 320px;
+}
+
+.btn1 {
+    text-decoration: underline;
+    padding: 0;
+    border: none;
+    background: none;
+    margin-left: 70px;
+    align-self: center;
+    color: hsl(245, 75%, 52%);
+}
+
+.btn1:hover {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+.btn2 {
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    border-radius: 13px;
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+    font-size: 16px;
+    padding: 16px 31px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 10px 10px -20px rgba(84, 84, 84, 0.32);
+    width: 320px;
+}
+
+.btn2:hover {
+    color: #fff;
+    background-color: hsl(224, 23%, 55%);
+}
+
+.para1 {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: gray;
+}
+
+.btn3 {
+    color: hsl(224, 15%, 35%);
+    padding: 0;
+    border: none;
+    background: none;
+    margin-bottom: 30px;
+}
+
+.btn3:hover {
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+}
+
+.btnlow {
+    display: inline-grid;
+}
+
+.attribution {
+    text-align: end
+}
+
+.para2 {
+    text-align: left;
+    width: 100px;
+}
+
+.pic {
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    margin-right: 15px;
+    margin-left: 20px;;
+}
+
+@font-face {
+    font-family: RedHat;
+    src: url(design/RedHatDisplay-Regular.ttf);
+}
